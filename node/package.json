@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "test server please ignore",
+  "main": "build/index.js",
+  "repository": "https://github.com/TheAppleFreak/streamdeck-test",
+  "author": "TheAppleFreak <TheAppleFreak@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc -P ./tsconfig.json",
+    "clean": "rimraf build",
+    "prepublish": "yarn clean && yarn build",
+    "start": "yarn node ./build/index.js"
+  },
+  "dependencies": {
+    "moleculer": "^0.14.7",
+    "moleculer-web": "^0.9.1",
+    "ws": "^7.3.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@types/ws": "^7.2.4",
+    "rimraf": "^3.0.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.3"
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "Actions": [
+      {
+        "Icon": "actionIcon", 
+        "Name": "Server Count", 
+        "States": [
+          {
+            "Image": "actionDefaultImage",
+            "TitleAlignment": "middle", 
+            "FontSize": "16"
+          }
+        ], 
+        "SupportedInMultiActions": false,
+        "Tooltip": "Count some numbers!", 
+        "UUID": "com.theapplefreak.server-count.action"
+      }
+    ], 
+    "SDKVersion": 2,
+    "Author": "TheAppleFreak", 
+    "CodePath": "index.html", 
+    "Description": "This shows you the current count, as determined by the all-knowing server.", 
+    "Name": "Server Count", 
+    "Icon": "pluginIcon", 
+    "URL": "https://github.com/TheAppleFreak/streamdeck-test", 
+    "Version": "0.1",
+    "OS": [
+      {
+          "Platform": "mac", 
+          "MinimumVersion" : "10.11"
+      },
+      {
+          "Platform": "windows", 
+          "MinimumVersion" : "10"
+      }
+    ],
+    "Software": 
+      {
+          "MinimumVersion" : "4.1"
+      }
+  }
